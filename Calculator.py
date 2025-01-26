@@ -46,7 +46,7 @@ operator = tk.StringVar(value=" ")
 operations = ["+" , "-" , "*" , "/"]
 for i, op in enumerate(operations):
     tk.Radiobutton(window, text=op, variable=operator, value=op,indicatoron=0,width=3, selectcolor="light blue").grid(row=3, column=i+1,padx=3,pady=3,sticky="s")
-#claculate button
+#calculate button
 calculate_button = tk.Button(window, text="Calculate",activebackground="light green", command=calculate)
 calculate_button.grid(row=4, column=1, columnspan=4)
 
